@@ -44,9 +44,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "ESCPOS_NET": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[8.0.3, )"
             }
           },
           "imports": [
